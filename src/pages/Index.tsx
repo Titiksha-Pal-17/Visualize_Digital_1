@@ -18,9 +18,11 @@ const Index = () => {
       {/* Header */}
       <header className="relative z-10 flex items-center justify-between px-9 py-6 mx-9 mt-6 bg-white rounded-[39px] backdrop-blur-sm">
         <div className="flex items-center">
-          <div className="w-[153px] h-10 bg-gradient-to-r from-brand-teal to-brand-green rounded flex items-center justify-center text-white font-bold">
-            Visualize Digital
-          </div>
+          <img
+            src="https://cdn.builder.io/api/v1/assets/2f7586ff9e01429985c3cdd0be5b530e/visual-logo-b39922?format=webp&width=800"
+            alt="Visualize Digital - Do more with less"
+            className="h-10 w-auto"
+          />
         </div>
 
         <nav className="hidden lg:flex items-center space-x-10">
