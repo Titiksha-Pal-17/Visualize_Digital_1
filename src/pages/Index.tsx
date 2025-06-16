@@ -367,19 +367,42 @@ const Index = () => {
         <div className="max-w-6xl mx-auto space-y-8">
           {/* First row */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-gradient-to-b from-[rgba(0,122,255,0.12)] to-[rgba(0,73,153,0.05)] border-2 border-[#70CA45] rounded-2xl p-8 text-center">
-              <h3 className="text-4xl font-bold text-white font-nunito mb-4">
-                Re-Assurance System
-              </h3>
-              <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 mt-4">
+            {/* Finance Card */}
+            <div className="border-2 border-[#70CA45] rounded-2xl overflow-hidden bg-gradient-to-b from-[rgba(0,122,255,0.12)] to-[rgba(0,73,153,0.05)]">
+              <div className="h-64 relative overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Finance dashboard with data visualizations"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="text-3xl font-bold text-white font-nunito">
+                    Re-Assurance System
+                  </h3>
+                </div>
+              </div>
+              <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 m-4 text-center">
                 <span className="text-white text-xl font-inter uppercase">
                   Finance
                 </span>
               </div>
             </div>
+
+            {/* Education Card */}
             <div className="border-2 border-[#70CA45] rounded-2xl overflow-hidden">
-              <div className="h-64 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center">
-                <span className="text-white text-2xl">Education Platform</span>
+              <div className="h-64 relative overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/5361085/pexels-photo-5361085.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Education online learning platform"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="text-2xl font-bold text-white font-nunito">
+                    Learning Platform
+                  </h3>
+                </div>
               </div>
               <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 m-4 text-center">
                 <span className="text-white text-xl font-inter uppercase">
@@ -387,10 +410,21 @@ const Index = () => {
                 </span>
               </div>
             </div>
+
+            {/* Smart City Card */}
             <div className="border-2 border-[#70CA45] rounded-2xl overflow-hidden">
-              <div className="h-64 bg-gradient-to-br from-teal-600 to-green-600 flex items-center justify-center relative">
-                <span className="text-white text-2xl">Smart City</span>
-                <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
+              <div className="h-64 relative overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/6457495/pexels-photo-6457495.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Smart city technology and urban development"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="text-2xl font-bold text-white font-nunito">
+                    Smart City
+                  </h3>
+                </div>
               </div>
               <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 m-4 text-center">
                 <span className="text-white text-xl font-inter uppercase">
@@ -401,46 +435,69 @@ const Index = () => {
           </div>
 
           {/* Media Platform */}
-          <div className="border-2 border-[#70CA45] rounded-2xl bg-gradient-to-b from-[rgba(11,2,23,0)] to-[rgba(22,9,42,0.5)] p-8">
-            <div className="flex flex-col lg:flex-row items-center gap-8">
-              <div className="flex-1">
+          <div className="border-2 border-[#70CA45] rounded-2xl bg-gradient-to-b from-[rgba(11,2,23,0)] to-[rgba(22,9,42,0.5)] overflow-hidden">
+            <div className="flex flex-col lg:flex-row items-center">
+              <div className="flex-1 p-8">
                 <h3 className="text-4xl font-bold text-white font-inter mb-4">
                   Media Distribution & Aggregation Platform
                 </h3>
               </div>
-              <div className="w-80 h-64 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-                <span className="text-white text-xl">Media Cube</span>
+              <div className="w-full lg:w-80 h-64 relative overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/30885920/pexels-photo-30885920.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Media streaming and entertainment platform"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black/40" />
               </div>
             </div>
-            <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 mt-6 text-center">
+            <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 m-6 text-center">
               <span className="text-white text-xl font-inter uppercase">
                 Media & entertainment
               </span>
             </div>
           </div>
 
-          {/* Transport and Hotel */}
+          {/* Hotel and Retail */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="lg:col-span-2 border-2 border-[#70CA45] rounded-2xl bg-gradient-to-b from-[rgba(11,2,23,0)] to-[rgba(22,9,42,0.5)] p-8">
-              <div className="flex flex-col lg:flex-row items-center gap-8">
-                <div className="flex-1">
+            {/* Hotel Booking Card */}
+            <div className="lg:col-span-2 border-2 border-[#70CA45] rounded-2xl bg-gradient-to-b from-[rgba(11,2,23,0)] to-[rgba(22,9,42,0.5)] overflow-hidden">
+              <div className="flex flex-col lg:flex-row items-center">
+                <div className="flex-1 p-8">
                   <h3 className="text-4xl font-bold text-white font-inter mb-4">
                     Hotel Booking System
                   </h3>
                 </div>
-                <div className="w-64 h-48 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center">
-                  <span className="text-white text-xl">Hotel & Travel</span>
+                <div className="w-full lg:w-64 h-48 relative overflow-hidden">
+                  <img
+                    src="https://images.pexels.com/photos/7820359/pexels-photo-7820359.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Hotel booking and travel hospitality"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black/40" />
                 </div>
               </div>
-              <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 mt-6 text-center">
+              <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 m-6 text-center">
                 <span className="text-white text-xl font-inter uppercase">
                   Travel & Hospitality
                 </span>
               </div>
             </div>
+
+            {/* E-commerce Card */}
             <div className="border-2 border-[#70CA45] rounded-2xl overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-green-600 to-blue-600 flex items-center justify-center">
-                <span className="text-white text-xl">E-commerce</span>
+              <div className="h-48 relative overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="E-commerce online shopping and retail"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="text-xl font-bold text-white font-nunito">
+                    E-commerce Platform
+                  </h3>
+                </div>
               </div>
               <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 m-4 text-center">
                 <span className="text-white text-lg font-inter uppercase">
@@ -451,18 +508,23 @@ const Index = () => {
           </div>
 
           {/* Healthcare */}
-          <div className="border-2 border-[#70CA45] rounded-2xl bg-gradient-to-b from-[rgba(11,2,23,0)] to-[rgba(22,9,42,0.5)] p-8">
-            <div className="flex flex-col lg:flex-row items-center gap-8">
-              <div className="flex-1">
+          <div className="border-2 border-[#70CA45] rounded-2xl bg-gradient-to-b from-[rgba(11,2,23,0)] to-[rgba(22,9,42,0.5)] overflow-hidden">
+            <div className="flex flex-col lg:flex-row items-center">
+              <div className="flex-1 p-8">
                 <h3 className="text-4xl font-bold text-white font-inter mb-4">
                   Organic Transplant Care
                 </h3>
               </div>
-              <div className="w-80 h-64 bg-gradient-to-br from-teal-600 to-blue-600 rounded-xl flex items-center justify-center">
-                <span className="text-white text-xl">Healthcare Platform</span>
+              <div className="w-full lg:w-80 h-64 relative overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/7578803/pexels-photo-7578803.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Healthcare medical technology platform"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black/40" />
               </div>
             </div>
-            <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 mt-6 text-center">
+            <div className="bg-glass-white border border-glass-border rounded-full px-8 py-2 m-6 text-center">
               <span className="text-white text-lg font-inter uppercase">
                 Healthcare
               </span>
