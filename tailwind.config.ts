@@ -79,7 +79,7 @@ export default {
       },
       backgroundImage: {
         "hero-gradient":
-          "linear-gradient(180deg, rgba(34, 143, 206, 0.35) 0%, rgba(14, 80, 75, 0.45) 95.96%)",
+          "linear-gradient(180deg, rgba(34, 143, 206, 0.85) 0%, rgba(14, 80, 75, 0.95) 95.96%)",
         "button-gradient": "linear-gradient(180deg, #4BB1A4 0%, #73CB3D 100%)",
         "button-gradient-alt":
           "linear-gradient(94deg, #4BB1A4 3.8%, #73CB3D 115.06%)",
