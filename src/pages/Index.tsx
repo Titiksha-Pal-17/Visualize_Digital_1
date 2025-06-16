@@ -610,10 +610,18 @@ const Index = () => {
             </p>
           </div>
           <div className="flex-1">
-            <div className="w-full h-80 bg-gradient-to-br from-blue-600 to-teal-600 rounded-xl shadow-global-shadow flex items-center justify-center">
-              <span className="text-white text-2xl font-bold">
-                Global Map Visualization
-              </span>
+            <div className="w-full h-80 rounded-xl shadow-global-shadow overflow-hidden relative">
+              <img
+                src="https://images.pexels.com/photos/7635003/pexels-photo-7635003.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Global map visualization showing world connectivity"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+              <div className="absolute bottom-6 left-6">
+                <span className="text-2xl font-bold text-white">
+                  Global Map Visualization
+                </span>
+              </div>
             </div>
           </div>
         </div>
