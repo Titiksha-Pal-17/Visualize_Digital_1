@@ -238,18 +238,17 @@ const Index = () => {
           </div>
 
           <div className="flex-1">
-            <div className="w-full h-80 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
-              <div className="text-white text-center">
-                <div className="w-32 h-32 bg-white/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <svg
-                    className="w-16 h-16"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9 12a1 1 0 01-.894-.553L6.382 8H4a1 1 0 110-2h3a1 1 0 01.894.553L9.618 10H12a1 1 0 110 2H9z" />
-                  </svg>
-                </div>
-                <p className="text-xl font-semibold">People working together</p>
+            <div className="w-full h-80 rounded-2xl overflow-hidden relative">
+              <img
+                src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Diverse team collaborating in office with laptops and tablets"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              <div className="absolute bottom-6 left-6">
+                <p className="text-2xl font-bold text-white">
+                  People working together
+                </p>
               </div>
             </div>
           </div>
