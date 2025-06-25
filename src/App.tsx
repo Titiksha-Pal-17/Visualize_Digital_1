@@ -5,6 +5,17 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Services from "./pages/Services";
+import PerformanceMarketing from "./pages/services/PerformanceMarketing";
+import SEOContent from "./pages/services/SEOContent";
+import SocialMediaMarketing from "./pages/services/SocialMediaMarketing";
+import EmailSMSMarketing from "./pages/services/EmailSMSMarketing";
+import AnalyticsCRO from "./pages/services/AnalyticsCRO";
+import WebAppServices from "./pages/services/WebAppServices";
+import StrategyConsultation from "./pages/services/StrategyConsultation";
+import IndustryPackages from "./pages/services/IndustryPackages";
+import ToolsIntegrations from "./pages/services/ToolsIntegrations";
+import ClientPortal from "./pages/services/ClientPortal";
 
 const queryClient = new QueryClient();
 
@@ -16,6 +27,38 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/services" element={<Services />} />
+          <Route
+            path="/services/performance-marketing"
+            element={<PerformanceMarketing />}
+          />
+          <Route path="/services/seo-content" element={<SEOContent />} />
+          <Route
+            path="/services/social-media-marketing"
+            element={<SocialMediaMarketing />}
+          />
+          <Route
+            path="/services/email-sms-marketing"
+            element={<EmailSMSMarketing />}
+          />
+          <Route path="/services/analytics-cro" element={<AnalyticsCRO />} />
+          <Route
+            path="/services/web-app-services"
+            element={<WebAppServices />}
+          />
+          <Route
+            path="/services/strategy-consultation"
+            element={<StrategyConsultation />}
+          />
+          <Route
+            path="/services/industry-packages"
+            element={<IndustryPackages />}
+          />
+          <Route
+            path="/services/tools-integrations"
+            element={<ToolsIntegrations />}
+          />
+          <Route path="/services/client-portal" element={<ClientPortal />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
