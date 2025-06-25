@@ -190,12 +190,12 @@ const Services = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gray-50 py-20 px-4">
+      <section className="relative z-10 py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6 font-inter">
+          <h2 className="text-4xl font-bold text-white mb-6 font-inter">
             Ready to Transform Your Digital Presence?
           </h2>
-          <p className="text-xl text-gray-600 mb-8 font-inter">
+          <p className="text-xl text-[#D2D0DD] mb-8 font-inter">
             Let's discuss how our digital marketing services can help accelerate
             your business growth.
           </p>
@@ -203,7 +203,7 @@ const Services = () => {
             <button className="bg-button-gradient px-8 py-4 rounded-29 text-white font-inter text-lg shadow-glow hover:scale-105 transition-transform">
               Book a Consultation
             </button>
-            <button className="border-2 border-brand-teal text-brand-teal px-8 py-4 rounded-29 font-inter text-lg hover:bg-brand-teal hover:text-white transition-colors">
+            <button className="border-2 border-white text-white px-8 py-4 rounded-29 font-inter text-lg hover:bg-white hover:text-gray-900 transition-colors">
               View Portfolio
             </button>
           </div>
