@@ -153,7 +153,7 @@ const PerformanceMarketing = () => {
             <div
               key={index}
               id={`service-${index}`}
-              className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow"
+              className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="flex flex-col lg:flex-row items-start gap-8">
                 <div className="flex-shrink-0">
