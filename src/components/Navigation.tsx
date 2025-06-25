@@ -15,7 +15,7 @@ const Navigation = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-glass-border">
-      <div className="flex items-center justify-between px-9 py-6 mx-9 rounded-[39px]">
+      <div className="flex items-center justify-between px-9 py-6 mx-9 rounded-[39px] bg-white">
         <div className="flex items-center">
           <Link to="/">
             <img
