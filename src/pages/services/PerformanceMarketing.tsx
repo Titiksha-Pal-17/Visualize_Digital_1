@@ -163,10 +163,10 @@ const PerformanceMarketing = () => {
                 </div>
 
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 font-inter">
+                  <h3 className="text-2xl font-bold text-white mb-4 font-inter">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 text-lg leading-relaxed mb-6 font-inter">
+                  <p className="text-[#D2D0DD] text-lg leading-relaxed mb-6 font-inter">
                     {service.description}
                   </p>
 
