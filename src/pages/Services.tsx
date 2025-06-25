@@ -108,13 +108,18 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-hero-gradient font-inter text-white overflow-hidden relative">
+      {/* Background blur elements */}
+      <div className="absolute top-64 right-0 w-[600px] h-[653px] rounded-full bg-gradient-to-b from-[rgba(84,84,212,0.20)] to-[rgba(84,84,212,0.08)] blur-[150px]" />
+      <div className="absolute top-10 left-96 w-[467px] h-[1399px] rounded-full bg-gradient-to-b from-[rgba(251,168,28,0.11)] to-[rgba(224,86,136,0.06)] blur-[150px] rotate-[65.712deg]" />
+      <div className="absolute -top-16 -left-80 w-[467px] h-[1234px] rounded-full bg-gradient-to-b from-[rgba(84,84,212,0.27)] to-[rgba(84,84,212,0.11)] blur-[150px] rotate-[-54.374deg]" />
+
       <Navigation />
 
       {/* Hero Section */}
-      <section className="bg-hero-gradient py-20 px-4">
+      <section className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl lg:text-6xl font-bold font-inter text-white mb-6 bg-hero-text-gradient bg-clip-text text-transparent">
+          <h1 className="text-5xl lg:text-6xl font-bold font-inter mb-6 bg-hero-text-gradient bg-clip-text text-transparent">
             Our Digital Marketing Services
           </h1>
           <p className="text-xl text-[#D2D0DD] max-w-3xl mx-auto font-inter">
@@ -125,13 +130,13 @@ const Services = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20 px-4">
+      <section className="relative z-10 py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-inter">
+            <h2 className="text-4xl font-bold text-white mb-4 font-inter">
               Choose Your Service Category
             </h2>
-            <p className="text-lg text-gray-600 font-inter">
+            <p className="text-lg text-[#D2D0DD] font-inter">
               Select a service category to explore our detailed offerings
             </p>
           </div>
