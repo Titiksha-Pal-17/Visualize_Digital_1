@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Target, TrendingUp, Users, Zap } from "lucide-react";
 
@@ -205,6 +206,8 @@ const PerformanceMarketing = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
