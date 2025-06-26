@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 import PerformanceMarketing from "./pages/services/PerformanceMarketing";
 import SEOContent from "./pages/services/SEOContent";
 import SocialMediaMarketing from "./pages/services/SocialMediaMarketing";
