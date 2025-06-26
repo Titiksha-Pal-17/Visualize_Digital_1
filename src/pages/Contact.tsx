@@ -185,12 +185,18 @@ const Contact = () => {
                       <h4 className="text-white font-semibold mb-1 font-inter">
                         Phone Numbers
                       </h4>
-                      <p className="text-[#D2D0DD] font-inter">
+                      <a
+                        href="tel:+15551234567"
+                        className="text-brand-teal hover:text-brand-green transition-colors font-inter block"
+                      >
                         +1 (555) 123-4567
-                      </p>
-                      <p className="text-[#D2D0DD] font-inter">
+                      </a>
+                      <a
+                        href="tel:+15559876543"
+                        className="text-brand-teal hover:text-brand-green transition-colors font-inter block"
+                      >
                         +1 (555) 987-6543
-                      </p>
+                      </a>
                     </div>
                   </div>
 
