@@ -17,55 +17,7 @@ const Index = () => {
       <div className="absolute top-10 left-96 w-[467px] h-[1399px] rounded-full bg-gradient-to-b from-[rgba(251,168,28,0.11)] to-[rgba(224,86,136,0.06)] blur-[150px] rotate-[65.712deg]" />
       <div className="absolute -top-16 -left-80 w-[467px] h-[1234px] rounded-full bg-gradient-to-b from-[rgba(84,84,212,0.27)] to-[rgba(84,84,212,0.11)] blur-[150px] rotate-[-54.374deg]" />
 
-      {/* Header - Using shared navigation but with transparent background for landing page */}
-      <header className="relative z-10 flex items-center justify-between px-9 py-6 mx-9 mt-6 bg-white rounded-[39px] backdrop-blur-sm">
-        <div className="flex items-center">
-          <img
-            src="https://cdn.builder.io/api/v1/assets/2f7586ff9e01429985c3cdd0be5b530e/visual-logo-b39922?format=webp&width=800"
-            alt="Visualize Digital - Do more with less"
-            className="h-16 w-auto"
-          />
-        </div>
-
-        <nav className="hidden lg:flex items-center space-x-10">
-          <Link
-            to="/services"
-            className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
-          >
-            Services
-          </Link>
-          <a
-            href="#technologies"
-            className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
-          >
-            Technologies
-          </a>
-          <a
-            href="#industries"
-            className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
-          >
-            Industries
-          </a>
-          <a
-            href="#portfolio"
-            className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
-          >
-            Portfolio
-          </a>
-          <a
-            href="#insights"
-            className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
-          >
-            Insights
-          </a>
-          <Link
-            to="/about"
-            className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
-          >
-            About
-          </Link>
-        </nav>
-      </header>
+      <Navigation />
 
       {/* Hero Section */}
       <section className="relative z-10 text-center px-4 py-16 max-w-5xl mx-auto">
