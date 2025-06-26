@@ -174,6 +174,8 @@ const IndustryPackages = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
