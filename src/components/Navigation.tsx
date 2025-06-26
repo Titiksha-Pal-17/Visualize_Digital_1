@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const location = useLocation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
     { name: "Home", path: "/" },
@@ -14,51 +17,87 @@ const Navigation = () => {
     { name: "Contact", path: "/contact" },
   ];
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-glass-border">
-      <div className="flex items-center justify-between px-9 py-6 mx-9 rounded-[39px] bg-white">
-        <div className="flex items-center">
-          <Link to="/">
-            <img
-              src="https://cdn.builder.io/api/v1/assets/2f7586ff9e01429985c3cdd0be5b530e/visual-logo-b39922?format=webp&width=800"
-              alt="Visualize Digital - Do more with less"
-              className="h-16 w-auto"
-            />
-          </Link>
+    <header className="sticky top-0 z-50 bg-white/98 backdrop-blur-md border-b border-white/20 shadow-lg">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="flex items-center justify-between py-4 md:py-6 px-6 md:px-9 mx-2 md:mx-9 rounded-[39px] bg-white shadow-xl border border-gray-100">
+          {/* Logo */}
+          <div className="flex items-center">
+            <Link
+              to="/"
+              className="transition-transform hover:scale-105 duration-300"
+            >
+              <img
+                src="https://cdn.builder.io/api/v1/assets/2f7586ff9e01429985c3cdd0be5b530e/visual-logo-b39922?format=webp&width=800"
+                alt="Visualize Digital - Do more with less"
+                className="h-12 md:h-16 w-auto"
+              />
+            </Link>
+          </div>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center space-x-8">
+            {navItems.map((item) => (
+              <Link
+                key={item.name}
+                to={item.path}
+                className={`relative text-base font-nunito transition-all duration-300 hover:text-brand-teal group ${
+                  location.pathname === item.path
+                    ? "text-brand-teal font-semibold"
+                    : "text-gray-700 hover:text-brand-teal"
+                }`}
+              >
+                {item.name}
+                <span
+                  className={`absolute -bottom-1 left-0 h-0.5 bg-brand-teal transition-all duration-300 ${
+                    location.pathname === item.path
+                      ? "w-full"
+                      : "w-0 group-hover:w-full"
+                  }`}
+                />
+              </Link>
+            ))}
+          </nav>
+
+          {/* Mobile menu button */}
+          <button
+            onClick={toggleMobileMenu}
+            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+            aria-label="Toggle mobile menu"
+          >
+            {isMobileMenuOpen ? (
+              <X className="w-6 h-6 text-gray-700" />
+            ) : (
+              <Menu className="w-6 h-6 text-gray-700" />
+            )}
+          </button>
         </div>
 
-        <nav className="hidden lg:flex items-center space-x-10">
-          {navItems.map((item) => (
-            <Link
-              key={item.name}
-              to={item.path}
-              className={`text-lg font-nunito hover:text-brand-teal transition-colors ${
-                location.pathname === item.path
-                  ? "text-brand-teal font-bold"
-                  : "text-black"
-              }`}
-            >
-              {item.name}
-            </Link>
-          ))}
-        </nav>
-
-        {/* Mobile menu button */}
-        <button className="lg:hidden p-2">
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
+        {/* Mobile Navigation */}
+        {isMobileMenuOpen && (
+          <div className="lg:hidden absolute top-full left-0 right-0 bg-white/98 backdrop-blur-md border-b border-white/20 shadow-lg">
+            <nav className="px-6 py-4 space-y-2">
+              {navItems.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.path}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={`block px-4 py-3 rounded-lg text-base font-nunito transition-all duration-200 ${
+                    location.pathname === item.path
+                      ? "text-brand-teal font-semibold bg-brand-teal/10"
+                      : "text-gray-700 hover:text-brand-teal hover:bg-gray-50"
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </nav>
+          </div>
+        )}
       </div>
     </header>
   );
