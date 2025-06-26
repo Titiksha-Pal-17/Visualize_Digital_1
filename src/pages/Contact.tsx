@@ -303,7 +303,63 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section (Optional) */}
+      {/* Office Locations */}
+      <section className="relative z-10 py-16 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-12 font-inter text-center">
+            Our Global Offices
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-gradient-to-r from-brand-teal to-brand-green rounded-lg flex items-center justify-center mb-4">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 font-inter">
+                United States
+              </h3>
+              <p className="text-[#D2D0DD] font-inter">
+                123 Innovation Drive, Suite 400
+                <br />
+                Tech City, TC 12345
+                <br />
+                +1 (555) 123-4567
+              </p>
+            </div>
+            <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-gradient-to-r from-brand-teal to-brand-green rounded-lg flex items-center justify-center mb-4">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 font-inter">
+                United Kingdom
+              </h3>
+              <p className="text-[#D2D0DD] font-inter">
+                456 Digital Street
+                <br />
+                London, LN1 2AB
+                <br />
+                +44 20 1234 5678
+              </p>
+            </div>
+            <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-gradient-to-r from-brand-teal to-brand-green rounded-lg flex items-center justify-center mb-4">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 font-inter">
+                India
+              </h3>
+              <p className="text-[#D2D0DD] font-inter">
+                789 Tech Hub
+                <br />
+                Bangalore, KA 560001
+                <br />
+                +91 80 1234 5678
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map Section */}
       <section className="relative z-10 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-8 shadow-lg">
