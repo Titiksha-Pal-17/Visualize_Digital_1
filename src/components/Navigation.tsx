@@ -44,7 +44,7 @@ const Navigation = () => {
         </nav>
 
         <Link
-          to="#contact"
+          to="/contact"
           className="bg-button-gradient px-16 py-3 rounded-29 text-white font-inter text-lg shadow-glow flex items-center gap-2 hover:scale-105 transition-transform"
         >
           CONTACT
