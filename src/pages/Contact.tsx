@@ -35,14 +35,18 @@ const Contact = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative z-10 py-16 px-4">
+      <section className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl lg:text-6xl font-bold font-inter mb-6 bg-hero-text-gradient bg-clip-text text-transparent">
-            Get In Touch
+          <h1 className="text-5xl lg:text-7xl font-bold font-inter mb-6 bg-hero-text-gradient bg-clip-text text-transparent">
+            Let's Start Building
           </h1>
-          <p className="text-xl text-[#D2D0DD] max-w-3xl mx-auto font-inter">
-            Ready to transform your digital presence? Let's discuss how we can
-            help you achieve your goals.
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-8 font-inter">
+            Your Digital Future
+          </h2>
+          <p className="text-xl text-[#D2D0DD] max-w-4xl mx-auto font-inter leading-relaxed">
+            Ready to transform your digital presence? We're here to help you
+            achieve extraordinary results. Get in touch with our team of experts
+            and let's discuss how we can accelerate your business growth.
           </p>
         </div>
       </section>
