@@ -22,9 +22,9 @@ const Navigation = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/98 backdrop-blur-md border-b border-white/20 shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 md:px-6">
-        <div className="flex items-center justify-between py-4 md:py-6 px-6 md:px-9 mx-2 md:mx-9 rounded-[39px] bg-white shadow-xl border border-gray-100">
+    <header className="sticky top-4 z-50 bg-white/98 backdrop-blur-md border-b border-white/20 shadow-lg">
+      <div className="max-w-full mx-auto px-2 md:px-4">
+        <div className="flex items-center justify-between py-5 md:py-7 px-8 md:px-12 mx-1 md:mx-4 rounded-[39px] bg-white shadow-xl border border-gray-100">
           {/* Logo */}
           <div className="flex items-center">
             <Link
