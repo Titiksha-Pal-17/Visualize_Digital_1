@@ -171,6 +171,8 @@ const EmailSMSMarketing = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
