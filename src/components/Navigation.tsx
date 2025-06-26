@@ -88,8 +88,8 @@ const Navigation = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`block px-4 py-3 rounded-lg text-base font-nunito transition-all duration-200 ${
                     location.pathname === item.path
-                      ? "text-brand-teal font-semibold bg-brand-teal/10"
-                      : "text-gray-700 hover:text-brand-teal hover:bg-gray-50"
+                      ? "text-brand-teal font-bold bg-brand-teal/10"
+                      : "text-gray-700 hover:text-brand-teal hover:bg-gray-50 font-semibold"
                   }`}
                 >
                   {item.name}
