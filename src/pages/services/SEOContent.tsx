@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Search, FileText, TrendingUp, Edit } from "lucide-react";
 
@@ -169,6 +170,8 @@ const SEOContent = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
