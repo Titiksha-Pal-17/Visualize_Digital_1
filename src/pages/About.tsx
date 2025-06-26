@@ -1,5 +1,15 @@
 import Navigation from "@/components/Navigation";
-import { Users, Target, Award, Globe, Lightbulb, Heart } from "lucide-react";
+import Footer from "@/components/Footer";
+import {
+  Users,
+  Target,
+  Award,
+  Globe,
+  Heart,
+  Zap,
+  Shield,
+  Lightbulb,
+} from "lucide-react";
 
 const About = () => {
   const stats = [
