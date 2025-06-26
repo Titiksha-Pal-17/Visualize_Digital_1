@@ -51,6 +51,46 @@ const Contact = () => {
         </div>
       </section>
 
+      {/* Stats Section */}
+      <section className="relative z-10 py-16 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            <div className="text-center bg-glass-white backdrop-blur-sm rounded-xl p-6 border border-glass-border">
+              <div className="text-4xl font-bold text-stat-green font-inter mb-2">
+                500+
+              </div>
+              <div className="text-lg font-semibold text-white font-inter">
+                Projects Completed
+              </div>
+            </div>
+            <div className="text-center bg-glass-white backdrop-blur-sm rounded-xl p-6 border border-glass-border">
+              <div className="text-4xl font-bold text-stat-green font-inter mb-2">
+                98%
+              </div>
+              <div className="text-lg font-semibold text-white font-inter">
+                Client Satisfaction
+              </div>
+            </div>
+            <div className="text-center bg-glass-white backdrop-blur-sm rounded-xl p-6 border border-glass-border">
+              <div className="text-4xl font-bold text-stat-green font-inter mb-2">
+                24/7
+              </div>
+              <div className="text-lg font-semibold text-white font-inter">
+                Support Available
+              </div>
+            </div>
+            <div className="text-center bg-glass-white backdrop-blur-sm rounded-xl p-6 border border-glass-border">
+              <div className="text-4xl font-bold text-stat-green font-inter mb-2">
+                15+
+              </div>
+              <div className="text-lg font-semibold text-white font-inter">
+                Countries Served
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="relative z-10 py-16 px-4">
         <div className="max-w-7xl mx-auto">
