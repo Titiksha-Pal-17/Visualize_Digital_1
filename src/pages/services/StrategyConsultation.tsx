@@ -165,6 +165,8 @@ const StrategyConsultation = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };

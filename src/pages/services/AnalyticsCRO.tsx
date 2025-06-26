@@ -169,6 +169,8 @@ const AnalyticsCRO = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
