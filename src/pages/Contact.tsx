@@ -162,12 +162,18 @@ const Contact = () => {
                       <h4 className="text-white font-semibold mb-1 font-inter">
                         Email Address
                       </h4>
-                      <p className="text-[#D2D0DD] font-inter">
+                      <a
+                        href="mailto:info@visualizedigital.com"
+                        className="text-brand-teal hover:text-brand-green transition-colors font-inter block"
+                      >
                         info@visualizedigital.com
-                      </p>
-                      <p className="text-[#D2D0DD] font-inter">
+                      </a>
+                      <a
+                        href="mailto:support@visualizedigital.com"
+                        className="text-brand-teal hover:text-brand-green transition-colors font-inter block"
+                      >
                         support@visualizedigital.com
-                      </p>
+                      </a>
                     </div>
                   </div>
 
