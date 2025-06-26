@@ -27,12 +27,12 @@ const Index = () => {
         </div>
 
         <nav className="hidden lg:flex items-center space-x-10">
-          <a
-            href="/services"
+          <Link
+            to="/services"
             className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
           >
             Services
-          </a>
+          </Link>
           <a
             href="#technologies"
             className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
@@ -57,12 +57,12 @@ const Index = () => {
           >
             Insights
           </a>
-          <a
-            href="#about"
+          <Link
+            to="/about"
             className="text-black text-lg font-nunito hover:text-brand-teal transition-colors"
           >
             About
-          </a>
+          </Link>
         </nav>
       </header>
 
