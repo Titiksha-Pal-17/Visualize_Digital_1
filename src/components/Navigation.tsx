@@ -47,8 +47,8 @@ const Navigation = () => {
                 to={item.path}
                 className={`relative text-base font-nunito transition-all duration-300 hover:text-brand-teal group ${
                   location.pathname === item.path
-                    ? "text-brand-teal font-semibold"
-                    : "text-gray-700 hover:text-brand-teal"
+                    ? "text-brand-teal font-bold"
+                    : "text-gray-700 hover:text-brand-teal font-semibold"
                 }`}
               >
                 {item.name}
