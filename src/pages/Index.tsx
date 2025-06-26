@@ -21,7 +21,7 @@ const Index = () => {
           <img
             src="https://cdn.builder.io/api/v1/assets/2f7586ff9e01429985c3cdd0be5b530e/visual-logo-b39922?format=webp&width=800"
             alt="Visualize Digital - Do more with less"
-            className="h-10 w-auto"
+            className="h-16 w-auto"
           />
         </div>
 
