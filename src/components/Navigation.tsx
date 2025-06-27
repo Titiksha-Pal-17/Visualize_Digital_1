@@ -22,8 +22,8 @@ const Navigation = () => {
 
   return (
     <header className="sticky top-4 z-50 bg-white/98 backdrop-blur-md border-b border-white/20 shadow-lg">
-      <div className="max-w-6xl mx-auto px-2 md:px-4">
-        <div className="flex items-center justify-between py-5 md:py-7 px-8 md:px-12 mx-1 md:mx-4 rounded-[39px] bg-white shadow-xl border border-gray-100">
+      <div className="max-w-6xl mx-auto px-3 md:px-6">
+        <div className="flex items-center justify-between py-3 md:py-4 px-6 md:px-10 mx-2 md:mx-6 rounded-[39px] bg-white shadow-xl border border-gray-100">
           {/* Logo */}
           <div className="flex items-center">
             <Link
