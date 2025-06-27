@@ -9,10 +9,9 @@ const Navigation = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Services", path: "/services" },
-    { name: "Technologies", path: "#technologies" },
-    { name: "Industries", path: "#industries" },
-    { name: "Portfolio", path: "#portfolio" },
-    { name: "Insights", path: "#insights" },
+    { name: "Technologies", path: "/technologies" },
+    { name: "Industries", path: "/industries" },
+    { name: "Portfolio", path: "/portfolio" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
