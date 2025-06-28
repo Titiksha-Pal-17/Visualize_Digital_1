@@ -148,7 +148,7 @@ const Footer = () => {
 
           <div className="text-center">
             <p className="text-white text-sm font-inter">
-              Copyright © 2000-2025{" "}
+              Copyright © 2014-2025{" "}
               <span className="text-brand-teal font-semibold">
                 Visualize Digital
               </span>
