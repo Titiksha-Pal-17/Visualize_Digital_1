@@ -150,7 +150,7 @@ const Footer = () => {
             <p className="text-white text-sm font-inter">
               Copyright © 2014-2025{" "}
               <span className="text-brand-teal font-semibold">
-                Visualize Digital
+                All Rights Reserved By Visualize Digital
               </span>
             </p>
           </div>
