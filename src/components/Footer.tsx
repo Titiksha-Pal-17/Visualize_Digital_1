@@ -60,7 +60,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Global Offices - Compact */}
+          {/* Global Offices */}
           <div className="lg:col-span-2">
             <h3 className="text-base font-bold text-white mb-3 font-inter">
               Global Offices
@@ -72,9 +72,7 @@ const Footer = () => {
                   <br />
                   Dallas, Texas
                   <br />
-                  <span className="text-xs text-[#B1ADBC]">
-                    +1 469 638 3402
-                  </span>
+                  <span className="text-xs text-[#B1ADBC]">+1 469 638 3402</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
@@ -83,9 +81,7 @@ const Footer = () => {
                   <br />
                   Ahmedabad, Gujarat
                   <br />
-                  <span className="text-xs text-[#B1ADBC]">
-                    +91 960 142 1472
-                  </span>
+                  <span className="text-xs text-[#B1ADBC]">+91 960 142 1472</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
@@ -94,9 +90,7 @@ const Footer = () => {
                   <br />
                   London
                   <br />
-                  <span className="text-xs text-[#B1ADBC]">
-                    +44 742 409 8452
-                  </span>
+                  <span className="text-xs text-[#B1ADBC]">+44 742 409 8452</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
@@ -105,13 +99,24 @@ const Footer = () => {
                   <br />
                   Melbourne, VIC
                   <br />
-                  <span className="text-xs text-[#B1ADBC]">
-                    +61 3 9581 2659
-                  </span>
+                  <span className="text-xs text-[#B1ADBC]">+61 3 9581 2659</span>
                 </p>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Help Section */}
+        <div className="text-center mb-8">
+          <h4 className="text-white text-base font-bold mb-2 font-inter">
+            For Help
+          </h4>
+          <a
+            href="mailto:help@visualizedigital.in"
+            className="text-brand-teal text-sm hover:text-brand-green transition-colors font-inter"
+          >
+            help@visualizedigital.in
+          </a>
         </div>
 
         {/* Bottom Footer */}
@@ -169,3 +174,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
