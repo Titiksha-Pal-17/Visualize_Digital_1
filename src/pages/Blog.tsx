@@ -17,7 +17,7 @@ const posts: BlogPost[] = [
     excerpt: "Explore our latest updates, case studies and insights...",
     author: "Titiksha",
     date: "2025-06-25",
-    image: "https://source.unsplash.com/800x400/?digital,blog",
+    image: "/blog1.jpg", 
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const posts: BlogPost[] = [
     excerpt: "We dive into the importance of clean UI and consistency...",
     author: "Team Visualize",
     date: "2025-06-26",
-    image: "https://source.unsplash.com/800x400/?design,ui",
+    image: "/blog2.jpg",
   },
 ];
 
@@ -33,7 +33,7 @@ const Blog: React.FC = () => {
   return (
     <section className="bg-gradient-to-b from-white via-blue-50 to-white py-16 px-4 sm:px-8 font-nunito text-gray-800">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-brand-black">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-gray-900">
           Our Blog
         </h1>
 
@@ -48,9 +48,12 @@ const Blog: React.FC = () => {
                 src={post.image}
                 alt={post.title}
                 className="w-full h-52 object-cover"
+                onError={(e) => {
+                  e.currentTarget.src = "/fallback.jpg"; // Optional fallback image
+                }}
               />
               <div className="p-6">
-                <h2 className="text-2xl font-bold text-brand-black mb-2">
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">
                   {post.title}
                 </h2>
                 <p className="text-gray-600 text-base mb-4">{post.excerpt}</p>
