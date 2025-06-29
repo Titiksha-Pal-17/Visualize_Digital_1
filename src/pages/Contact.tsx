@@ -326,6 +326,53 @@ const Contact = () => {
                 use-sales@visualizedigital.in
               </p>
             </div>
+             <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-gradient-to-r from-brand-teal to-brand-green rounded-lg flex items-center justify-center mb-4">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 font-inter">
+                Sydney, Australia
+              </h3>
+              <p className="text-[#D2D0DD] font-inter">
+                Alpixn Technologies Private Limited
+                <br />
+                Level 8, 350 George Street,
+                <br />
+                australia-sales@visualizedigital.in
+              </p>
+            </div>
+            <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-gradient-to-r from-brand-teal to-brand-green rounded-lg flex items-center justify-center mb-4">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 font-inter">
+                Dubai, UAE
+              </h3>
+              <p className="text-[#D2D0DD] font-inter">
+                Alpixn Technologies Private Limited
+                <br />
+                Office No. 205, DAFZA Business Center,
+                <br />
+                Dubai Airport Freezone,
+                <br />
+                dubai-sales@visualizedigital.in
+              </p>
+            </div>
+            <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-gradient-to-r from-brand-teal to-brand-green rounded-lg flex items-center justify-center mb-4">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 font-inter">
+                Milan, Italy
+              </h3>
+              <p className="text-[#D2D0DD] font-inter">
+                Alpixn Technologies Private Limited
+                <br />
+                Via Monte Napoleone 12,
+                <br />
+                Italy-sales@visualizedigital.in
+              </p>
+            </div>
             <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
               <div className="w-12 h-12 bg-gradient-to-r from-brand-teal to-brand-green rounded-lg flex items-center justify-center mb-4">
                 <MapPin className="w-6 h-6 text-white" />
