@@ -316,14 +316,14 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-white mb-2 font-inter">
-                United States
+                 New York, USA
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                123 Innovation Drive, Suite 400
+                Alpixn Technologies Private Limited
                 <br />
-                Tech City, TC 12345
+                5th Floor, 123 Madison Avenue,
                 <br />
-                +1 (555) 123-4567
+                use-sales@visualizedigital.in
               </p>
             </div>
             <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
@@ -331,14 +331,14 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-white mb-2 font-inter">
-                United Kingdom
+               London , United Kingdom
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                456 Digital Street
+                Alpixn Technologies Private Limited
                 <br />
-                London, LN1 2AB
+                Suite 23, 2nd Floor, Berkeley Square House
                 <br />
-                +44 20 1234 5678
+                uk-sales@visualizedigital.in
               </p>
             </div>
             <div className="bg-card-gradient backdrop-blur-88 border border-glass-border rounded-2xl p-6 shadow-lg">
@@ -346,14 +346,18 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-white mb-2 font-inter">
-                India
+                Gurgaon (Gurugram)
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                789 Tech Hub
+                Unitech Cyber Park
                 <br />
-                Bangalore, KA 560001
+                3rd & 10th Floor, Tower B, Unitech Cyber Park,
                 <br />
-                +91 80 1234 5678
+                Secot -39, Gurugram, Haryana 122003, India
+                <br />
+                +91 72910 31315
+                <br />
+                india-sales@visualizedigital.in
               </p>
             </div>
           </div>
