@@ -12,24 +12,12 @@ const Footer = () => {
               Services
             </h3>
             <ul className="space-y-1 text-sm text-[#B1ADBC] font-inter">
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                Custom Software Development
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                Web Development
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                Mobile App Development
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                Digital Marketing
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                UI/UX Design
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                Software Testing & QA
-              </li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">Custom Software Development</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">Web Development</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">Mobile App Development</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">Digital Marketing</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">UI/UX Design</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">Software Testing & QA</li>
             </ul>
           </div>
 
@@ -39,24 +27,12 @@ const Footer = () => {
               Technologies
             </h3>
             <ul className="space-y-1 text-sm text-[#B1ADBC] font-inter">
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                React & Next.js
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                Node.js & Express
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                PHP & Laravel
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                Java & Spring
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                iOS & Android
-              </li>
-              <li className="hover:text-brand-teal transition-colors cursor-pointer">
-                AWS & Azure
-              </li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">React & Next.js</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">Node.js & Express</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">PHP & Laravel</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">Java & Spring</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">iOS & Android</li>
+              <li className="hover:text-brand-teal transition-colors cursor-pointer">AWS & Azure</li>
             </ul>
           </div>
 
@@ -68,37 +44,29 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
                 <p className="text-white text-sm font-semibold font-inter">
-                  <strong>United States</strong>
-                  <br />
-                  Dallas, Texas
-                  <br />
+                  <strong>United States</strong><br />
+                  Dallas, Texas<br />
                   <span className="text-xs text-[#B1ADBC]">+1 469 638 3402</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
                 <p className="text-white text-sm font-semibold font-inter">
-                  <strong>India</strong>
-                  <br />
-                  Ahmedabad, Gujarat
-                  <br />
+                  <strong>India</strong><br />
+                  Ahmedabad, Gujarat<br />
                   <span className="text-xs text-[#B1ADBC]">+91 960 142 1472</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
                 <p className="text-white text-sm font-semibold font-inter">
-                  <strong>United Kingdom</strong>
-                  <br />
-                  London
-                  <br />
+                  <strong>United Kingdom</strong><br />
+                  London<br />
                   <span className="text-xs text-[#B1ADBC]">+44 742 409 8452</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
                 <p className="text-white text-sm font-semibold font-inter">
-                  <strong>Australia</strong>
-                  <br />
-                  Melbourne, VIC
-                  <br />
+                  <strong>Australia</strong><br />
+                  Melbourne, VIC<br />
                   <span className="text-xs text-[#B1ADBC]">+61 3 9581 2659</span>
                 </p>
               </div>
@@ -119,55 +87,20 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Bottom Footer */}
+        {/* Unified Bottom Line */}
         <div className="pt-6 border-t border-glass-border">
-          {/* Footer Links Row */}
-          <div className="flex flex-wrap justify-center items-center gap-3 text-sm mb-4">
-            <Link
-              to="/contact"
-              className="text-white hover:text-brand-teal transition-colors font-inter"
-            >
-              Contact
-            </Link>
-            <span className="text-[#B1ADBC]">|</span>
-            <a
-              href="#"
-              className="text-white hover:text-brand-teal transition-colors font-inter"
-            >
-              Privacy Policy
-            </a>
-            <span className="text-[#B1ADBC]">|</span>
-            <a
-              href="#"
-              className="text-white hover:text-brand-teal transition-colors font-inter"
-            >
-              Terms of Use
-            </a>
-            <span className="text-[#B1ADBC]">|</span>
-            <a
-              href="#"
-              className="text-white hover:text-brand-teal transition-colors font-inter"
-            >
-              Sitemap
-            </a>
-          </div>
-
-          {/* Copyright and Stats */}
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-4 text-center">
-            <p className="text-white text-sm font-inter">
-              Copyright © 2014-2025{" "}
-              <span className="text-brand-teal font-semibold">
-                All Rights Reserved By Visualize Digital
-              </span>
-            </p>
-
-            <div className="flex items-center gap-4 text-xs text-[#B1ADBC]">
-              <span>500+ Projects</span>
-              <span>•</span>
-              <span>15+ Years</span>
-              <span>•</span>
-              <span>98% Satisfaction</span>
-            </div>
+          <div className="flex flex-wrap justify-center items-center text-center text-xs text-[#B1ADBC] font-inter gap-2">
+            <Link to="/contact" className="text-white hover:text-brand-teal transition-colors">Contact</Link>
+            <span>|</span>
+            <a href="#" className="text-white hover:text-brand-teal transition-colors">Privacy Policy</a>
+            <span>|</span>
+            <a href="#" className="text-white hover:text-brand-teal transition-colors">Terms of Use</a>
+            <span>|</span>
+            <a href="#" className="text-white hover:text-brand-teal transition-colors">Sitemap</a>
+            <span>|</span>
+            <span className="text-white">© 2014–2025 All Rights Reserved By Visualize Digital</span>
+            <span>|</span>
+            <span>500+ Projects • 15+ Years • 98% Satisfaction</span>
           </div>
         </div>
       </div>
@@ -176,6 +109,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
