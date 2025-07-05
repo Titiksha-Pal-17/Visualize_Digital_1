@@ -92,16 +92,17 @@ const WebAppServices = () => {
                 services that create exceptional user experiences.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-button-gradient px-8 py-4 rounded-29 text-white font-inter text-lg shadow-glow hover:scale-105 transition-transform">
-                  Get Started
-                </button>
-                <Link
-                 to="/portfolio"
-                 className="border-2 border-white text-white px-8 py-4 rounded-29 font-inter text-lg hover:bg-white hover:text-gray-900 transition-colors text-center"
-                 >
-                    View Portfolio
-               </Link>
-              </div>
+             <button className="bg-button-gradient px-8 py-4 rounded-29 text-white font-inter text-lg shadow-glow hover:scale-105 transition-transform">
+              Get Started
+             </button>
+              <Link
+               to="/portfolio"
+              className="border-2 border-white text-white px-8 py-4 rounded-29 font-inter text-lg hover:bg-white hover:text-gray-900 transition-colors text-center"
+               >
+                View Portfolio
+              </Link>
+             </div>
+
             </div>
             <div className="flex-1">
               <div className="w-full h-80 bg-gradient-to-br from-cyan-600 to-blue-600 rounded-2xl flex items-center justify-center">
