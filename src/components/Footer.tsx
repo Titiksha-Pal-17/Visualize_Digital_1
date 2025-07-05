@@ -60,7 +60,7 @@ const Footer = () => {
             </ul>
           </div>
 
-   {/* Global Offices */}
+          {/* Global Offices */}
           <div className="lg:col-span-2">
             <h3 className="text-base font-bold text-white mb-3 font-inter">
               Global Offices
@@ -120,8 +120,9 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 pt-6 border-t border-glass-border">
-          <div className="flex flex-wrap items-center gap-4 text-sm">
+        <div className="pt-6 border-t border-glass-border">
+          {/* Footer Links Row */}
+          <div className="flex flex-wrap justify-center items-center gap-3 text-sm mb-4">
             <Link
               to="/contact"
               className="text-white hover:text-brand-teal transition-colors font-inter"
@@ -151,21 +152,22 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="text-center">
+          {/* Copyright and Stats */}
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-4 text-center">
             <p className="text-white text-sm font-inter">
               Copyright © 2014-2025{" "}
               <span className="text-brand-teal font-semibold">
                 All Rights Reserved By Visualize Digital
               </span>
             </p>
-          </div>
 
-          <div className="flex items-center gap-4 text-xs text-[#B1ADBC]">
-            <span>500+ Projects</span>
-            <span>•</span>
-            <span>15+ Years</span>
-            <span>•</span>
-            <span>98% Satisfaction</span>
+            <div className="flex items-center gap-4 text-xs text-[#B1ADBC]">
+              <span>500+ Projects</span>
+              <span>•</span>
+              <span>15+ Years</span>
+              <span>•</span>
+              <span>98% Satisfaction</span>
+            </div>
           </div>
         </div>
       </div>
@@ -174,5 +176,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
