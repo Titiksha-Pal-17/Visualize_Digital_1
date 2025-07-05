@@ -204,9 +204,13 @@ const Services = () => {
             <button className="bg-button-gradient px-8 py-4 rounded-29 text-white font-inter text-lg shadow-glow hover:scale-105 transition-transform">
               Book a Consultation
             </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-29 font-inter text-lg hover:bg-white hover:text-gray-900 transition-colors">
-              View Portfolio
-            </button>
+            <Link
+             to="/portfolio"
+             className="border-2 border-white text-white px-8 py-4 rounded-29 font-inter text-lg hover:bg-white hover:text-gray-900 transition-colors text-center"
+             >
+               View Portfolio
+             </Link>
+
           </div>
         </div>
       </section>
