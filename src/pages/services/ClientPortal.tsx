@@ -64,10 +64,16 @@ const ClientPortal = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-hero-gradient font-inter text-white overflow-hidden relative">
+      {/* Background blur elements */}
+      <div className="absolute top-64 right-0 w-[600px] h-[653px] rounded-full bg-gradient-to-b from-[rgba(84,84,212,0.20)] to-[rgba(84,84,212,0.08)] blur-[150px]" />
+      <div className="absolute top-10 left-96 w-[467px] h-[1399px] rounded-full bg-gradient-to-b from-[rgba(251,168,28,0.11)] to-[rgba(224,86,136,0.06)] blur-[150px] rotate-[65.712deg]" />
+      <div className="absolute -top-16 -left-80 w-[467px] h-[1234px] rounded-full bg-gradient-to-b from-[rgba(84,84,212,0.27)] to-[rgba(84,84,212,0.11)] blur-[150px] rotate-[-54.374deg]" />
+
       <Navigation />
 
-      <div className="bg-gray-50 py-4 px-4">
+      {/* Breadcrumb */}
+      <div className="relative z-10 py-4 px-4">
         <div className="max-w-6xl mx-auto flex items-center gap-2 text-sm">
           <Link
             to="/services"
@@ -75,8 +81,8 @@ const ClientPortal = () => {
           >
             Services
           </Link>
-          <span className="text-gray-400">/</span>
-          <span className="text-gray-600 font-inter">Client Portal</span>
+          <span className="text-white/40">/</span>
+          <span className="text-white/80 font-inter">Client Portal</span>
         </div>
       </div>
 
