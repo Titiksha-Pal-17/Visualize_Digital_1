@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Technologies from "./pages/Technologies";
 import Industries from "./pages/Industries";
 import Portfolio from "./pages/Portfolio";
+import Blog from "./pages/Blog";
 import PerformanceMarketing from "./pages/services/PerformanceMarketing";
 import SEOContent from "./pages/services/SEOContent";
 import SocialMediaMarketing from "./pages/services/SocialMediaMarketing";
