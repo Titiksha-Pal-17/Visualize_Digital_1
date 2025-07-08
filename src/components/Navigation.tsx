@@ -12,6 +12,7 @@ const Navigation = () => {
     { name: "Technologies", path: "/technologies" },
     { name: "Industries", path: "/industries" },
     { name: "Portfolio", path: "/portfolio" },
+    { name: "Blog", path: "/blog" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
