@@ -727,32 +727,65 @@ const BlogDetail = () => {
 
                 {/* Sections */}
                 {blog.content.sections.map((section, index) => (
-                  <div
-                    key={index}
-                    className="mb-12 animate-fadeInUp"
-                    style={{
-                      animationDelay: `${index * 0.2}s`,
-                    }}
-                  >
-                    <h2 className="text-3xl font-bold text-white mb-6 font-inter">
-                      {section.heading}
-                    </h2>
-                    <p className="text-lg text-[#D2D0DD] mb-6 leading-relaxed">
-                      {section.content}
-                    </p>
-                    <div className="bg-glass-white backdrop-blur-sm border border-glass-border rounded-[20px] p-6">
-                      <ul className="space-y-3">
-                        {section.points.map((point, pointIndex) => (
-                          <li
-                            key={pointIndex}
-                            className="flex items-start gap-3 text-white"
-                          >
-                            <div className="w-2 h-2 bg-brand-teal rounded-full mt-2 flex-shrink-0" />
-                            <span className="font-inter">{point}</span>
-                          </li>
-                        ))}
-                      </ul>
+                  <div key={index}>
+                    <div
+                      className="mb-12 animate-fadeInUp"
+                      style={{
+                        animationDelay: `${index * 0.2}s`,
+                      }}
+                    >
+                      <h2 className="text-3xl font-bold text-white mb-6 font-inter">
+                        {section.heading}
+                      </h2>
+                      <p className="text-lg text-[#D2D0DD] mb-6 leading-relaxed">
+                        {section.content}
+                      </p>
+                      <div className="bg-glass-white backdrop-blur-sm border border-glass-border rounded-[20px] p-6">
+                        <ul className="space-y-3">
+                          {section.points.map((point, pointIndex) => (
+                            <li
+                              key={pointIndex}
+                              className="flex items-start gap-3 text-white"
+                            >
+                              <div className="w-2 h-2 bg-brand-teal rounded-full mt-2 flex-shrink-0" />
+                              <span className="font-inter">{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
+
+                    {/* Dual Image Boxes after every second section */}
+                    {(index + 1) % 2 === 0 && (
+                      <div className="mb-12 animate-fadeInUp">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                          <div className="bg-glass-white backdrop-blur-sm border border-glass-border rounded-[20px] overflow-hidden hover:scale-105 transition-all duration-300">
+                            <img
+                              src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600"
+                              alt="Illustration"
+                              className="w-full h-48 object-cover"
+                            />
+                            <div className="p-4">
+                              <p className="text-[#D2D0DD] text-sm font-inter">
+                                Visual representation of key concepts
+                              </p>
+                            </div>
+                          </div>
+                          <div className="bg-glass-white backdrop-blur-sm border border-glass-border rounded-[20px] overflow-hidden hover:scale-105 transition-all duration-300">
+                            <img
+                              src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=600"
+                              alt="Illustration"
+                              className="w-full h-48 object-cover"
+                            />
+                            <div className="p-4">
+                              <p className="text-[#D2D0DD] text-sm font-inter">
+                                Supporting visual content
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 ))}
 
