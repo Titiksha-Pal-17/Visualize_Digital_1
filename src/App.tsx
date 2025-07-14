@@ -13,6 +13,7 @@ import Technologies from "./pages/Technologies";
 import Industries from "./pages/Industries";
 import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
+import BlogDetail from "./pages/BlogDetail";
 import ProjectDetail from "./pages/ProjectDetail";
 import PerformanceMarketing from "./pages/services/PerformanceMarketing";
 import SEOContent from "./pages/services/SEOContent";
