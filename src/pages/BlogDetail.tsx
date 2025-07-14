@@ -713,10 +713,10 @@ const BlogDetail = () => {
 
       {/* Article Content */}
       <section className="relative z-10 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
             {/* Main Content */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-2">
               <article className="prose prose-lg prose-invert max-w-none">
                 {/* Introduction */}
                 <div className="bg-glass-white backdrop-blur-sm border border-glass-border rounded-[20px] p-8 mb-8">
