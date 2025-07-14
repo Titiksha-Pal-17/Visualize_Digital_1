@@ -303,10 +303,13 @@ const Blog = () => {
                             <User className="w-3 h-3" />
                             {post.author}
                           </div>
-                          <button className="flex items-center gap-1 text-brand-teal hover:text-white transition-colors text-sm font-semibold opacity-0 group-hover:opacity-100">
+                          <Link
+                            to={`/blog/${post.id}`}
+                            className="flex items-center gap-1 text-brand-teal hover:text-white transition-colors text-sm font-semibold opacity-0 group-hover:opacity-100"
+                          >
                             Read More
                             <ArrowRight className="w-3 h-3" />
-                          </button>
+                          </Link>
                         </div>
                       </div>
                     </article>
