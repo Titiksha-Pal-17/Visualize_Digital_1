@@ -321,7 +321,7 @@ const Contact = () => {
                  New York, USA
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                Alpixn Technologies Private Limited
+                Visualize Digital Private Limited
                 <br />
                 5th Floor, 123 Madison Avenue,
                 <br />
@@ -336,7 +336,7 @@ const Contact = () => {
                 Sydney, Australia
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                Alpixn Technologies Private Limited
+                Visualize Digital Private Limited
                 <br />
                 Level 8, 350 George Street,
                 <br />
@@ -351,7 +351,7 @@ const Contact = () => {
                 Dubai, UAE
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                Alpixn Technologies Private Limited
+                Visualize Digital Private Limited
                 <br />
                 Office No. 205, DAFZA Business Center,
                 <br />
@@ -368,7 +368,7 @@ const Contact = () => {
                 Milan, Italy
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                Alpixn Technologies Private Limited
+                Visualize Digital Private Limited
                 <br />
                 Via Monte Napoleone 12,
                 <br />
@@ -383,7 +383,7 @@ const Contact = () => {
                London , United Kingdom
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                Alpixn Technologies Private Limited
+                Visualize Digital Private Limited
                 <br />
                 Suite 23, 2nd Floor, Berkeley Square House
                 <br />
