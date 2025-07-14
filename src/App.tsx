@@ -3,6 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Services from "./pages/Services";
@@ -11,8 +12,13 @@ import Contact from "./pages/Contact";
 import Technologies from "./pages/Technologies";
 import Industries from "./pages/Industries";
 import Portfolio from "./pages/Portfolio";
+<<<<<<< HEAD
 import Blog from "./pages/Blog";
 import ProjectDetail from "./pages/ProjectDetail";
+=======
+import Blog from "./pages/Blog"; // ✅ NEW: Blog import
+
+>>>>>>> d2fd1066da94ec12e38e3033b33975ddd2edc138
 import PerformanceMarketing from "./pages/services/PerformanceMarketing";
 import SEOContent from "./pages/services/SEOContent";
 import SocialMediaMarketing from "./pages/services/SocialMediaMarketing";
@@ -42,6 +48,8 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} /> {/* ✅ NEW: Blog route */}
+
           <Route
             path="/services/performance-marketing"
             element={<PerformanceMarketing />}
@@ -73,7 +81,8 @@ const App = () => (
             element={<ToolsIntegrations />}
           />
           <Route path="/services/client-portal" element={<ClientPortal />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+
+          {/* Keep this catch-all at the bottom */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
