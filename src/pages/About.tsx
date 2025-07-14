@@ -14,7 +14,7 @@ import {
 const About = () => {
   const stats = [
     { number: "500+", label: "Projects Completed" },
-    { number: "15+", label: "Years Experience" },
+    { number: "12+", label: "Years Experience" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "50+", label: "Team Members" },
   ];
@@ -281,7 +281,7 @@ const About = () => {
                 Proven Track Record
               </h3>
               <p className="text-[#D2D0DD] font-inter">
-                15+ years of delivering successful digital solutions with 98%
+                12+ years of delivering successful digital solutions with 98%
                 client satisfaction rate.
               </p>
             </div>
