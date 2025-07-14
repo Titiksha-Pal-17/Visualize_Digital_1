@@ -82,7 +82,7 @@ const Contact = () => {
             </div>
             <div className="text-center bg-glass-white backdrop-blur-sm rounded-xl p-6 border border-glass-border">
               <div className="text-4xl font-bold text-stat-green font-inter mb-2">
-                15+
+                10+
               </div>
               <div className="text-lg font-semibold text-white font-inter">
                 Countries Served
@@ -213,7 +213,7 @@ const Contact = () => {
                         href="mailto:support@visualizedigital.com"
                         className="text-brand-teal hover:text-brand-green transition-colors font-inter block"
                       >
-                        support@visualizedigital.com
+                        support@visualizedigital.in
                       </a>
                     </div>
                   </div>
@@ -230,13 +230,13 @@ const Contact = () => {
                         href="tel:+15551234567"
                         className="text-brand-teal hover:text-brand-green transition-colors font-inter block"
                       >
-                        +1 (555) 123-4567
+                        +91 72910 31315
                       </a>
                       <a
                         href="tel:+15559876543"
                         className="text-brand-teal hover:text-brand-green transition-colors font-inter block"
                       >
-                        +1 (555) 987-6543
+                        +91 72910 31315
                       </a>
                     </div>
                   </div>
@@ -250,11 +250,13 @@ const Contact = () => {
                         Office Address
                       </h4>
                       <p className="text-[#D2D0DD] font-inter">
-                        123 Innovation Drive, Suite 400
+                        Unitech Cyber Park
                         <br />
-                        Tech City, TC 12345
+                        3rd & 10th Floor, Tower B, Unitech Cyber Park,
                         <br />
-                        United States
+                        Secot -39, Gurugram,
+                        <br />
+                        Haryana 122003, India
                       </p>
                     </div>
                   </div>
