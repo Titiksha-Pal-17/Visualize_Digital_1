@@ -331,9 +331,10 @@ const Blog = () => {
                   </h3>
                   <div className="space-y-4">
                     {recentPosts.map((post) => (
-                      <article
+                      <Link
                         key={post.id}
-                        className="group cursor-pointer hover:bg-white/5 rounded-lg p-3 transition-colors"
+                        to={`/blog/${post.id}`}
+                        className="block group cursor-pointer hover:bg-white/5 rounded-lg p-3 transition-colors"
                       >
                         <h4 className="text-sm font-semibold text-white group-hover:text-brand-teal transition-colors line-clamp-2 mb-2">
                           {post.title}
@@ -342,7 +343,7 @@ const Blog = () => {
                           <Calendar className="w-3 h-3" />
                           {post.date}
                         </div>
-                      </article>
+                      </Link>
                     ))}
                   </div>
                 </div>
