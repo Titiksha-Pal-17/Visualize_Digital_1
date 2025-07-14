@@ -251,10 +251,13 @@ const Portfolio = () => {
                         {project.client}
                       </div>
                     </div>
-                    <button className="flex items-center gap-1 text-brand-teal hover:text-white transition-colors duration-300 opacity-0 group-hover:opacity-100">
+                    <Link
+                      to={`/portfolio/${project.id}`}
+                      className="flex items-center gap-1 text-brand-teal hover:text-white transition-colors duration-300 opacity-0 group-hover:opacity-100"
+                    >
                       <span className="text-sm font-semibold">View More</span>
                       <ExternalLink className="w-4 h-4" />
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
