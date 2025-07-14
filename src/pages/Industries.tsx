@@ -138,11 +138,11 @@ const Industries = () => {
               <div>Projects Delivered</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">12+</div>
+              <div className="text-2xl font-bold text-white">10+</div>
               <div>Industries Served</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">15+</div>
+              <div className="text-2xl font-bold text-white">12+</div>
               <div>Years Experience</div>
             </div>
           </div>

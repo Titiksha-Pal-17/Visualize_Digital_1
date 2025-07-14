@@ -44,28 +44,28 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
                 <p className="text-white text-sm font-semibold font-inter">
-                  <strong>United States</strong><br />
+                  <strong>🇺🇸United States</strong><br />
                   Dallas, Texas<br />
                   <span className="text-xs text-[#B1ADBC]">+1 469 638 3402</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
                 <p className="text-white text-sm font-semibold font-inter">
-                  <strong>India</strong><br />
+                  <strong>🇮🇳India</strong><br />
                   Ahmedabad, Gujarat<br />
                   <span className="text-xs text-[#B1ADBC]">+91 960 142 1472</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
                 <p className="text-white text-sm font-semibold font-inter">
-                  <strong>United Kingdom</strong><br />
+                  <strong>🇬🇧United Kingdom</strong><br />
                   London<br />
                   <span className="text-xs text-[#B1ADBC]">+44 742 409 8452</span>
                 </p>
               </div>
               <div className="bg-[rgba(178,218,175,0.10)] rounded-lg p-3">
                 <p className="text-white text-sm font-semibold font-inter">
-                  <strong>Australia</strong><br />
+                  <strong>🇫🇰Australia</strong><br />
                   Melbourne, VIC<br />
                   <span className="text-xs text-[#B1ADBC]">+61 3 9581 2659</span>
                 </p>
@@ -98,9 +98,9 @@ const Footer = () => {
             <span>|</span>
             <a href="#" className="text-white hover:text-brand-teal transition-colors">Sitemap</a>
             <span>|</span>
-            <span className="text-white">© 2014–2025 All Rights Reserved By Visualize Digital</span>
+            <span className="text-white">© 2013–2025 All Rights Reserved By Visualize Digital</span>
             <span>|</span>
-            <span>500+ Projects • 15+ Years • 98% Satisfaction</span>
+            <span>500+ Projects • 12+ Years • 98% Satisfaction</span>
           </div>
         </div>
       </div>
