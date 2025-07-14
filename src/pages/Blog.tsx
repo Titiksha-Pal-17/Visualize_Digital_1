@@ -243,10 +243,13 @@ const Blog = () => {
                                 <User className="w-4 h-4" />
                                 {featuredPost?.author}
                               </div>
-                              <button className="flex items-center gap-2 text-brand-teal hover:text-white transition-colors group-hover:gap-3 font-semibold">
+                              <Link
+                                to={`/blog/${featuredPost?.id}`}
+                                className="flex items-center gap-2 text-brand-teal hover:text-white transition-colors group-hover:gap-3 font-semibold"
+                              >
                                 Read More
                                 <ArrowRight className="w-4 h-4" />
-                              </button>
+                              </Link>
                             </div>
                           </div>
                         </div>
