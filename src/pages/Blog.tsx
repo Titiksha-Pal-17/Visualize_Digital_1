@@ -422,7 +422,3 @@ style.textContent = `
 document.head.appendChild(style);
 
 export default Blog;
-<<<<<<< HEAD
-=======
-
->>>>>>> d2fd1066da94ec12e38e3033b33975ddd2edc138
